@@ -1,5 +1,5 @@
-module "wordpress_dev" {
-  source = "https://github.com/sathakatheef/wordpress/tree/master/aws/modules"
+module "opserver_dev" {
+  source = "github.com/sathakatheef/wordpress/aws/modules"
 
   databases = "${local.wordpress_prod_db}"
 

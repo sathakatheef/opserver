@@ -3,6 +3,7 @@ variable "region" {default = "ap-southeast-2"}
 variable "environment" {}
 variable "product" {}
 variable "purpose" {}
+variable "account_name" {}
 
 #####AD Variables######
 variable "ad_subnet1" {}

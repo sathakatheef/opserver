@@ -163,7 +163,7 @@ resource "aws_route53_record" "this_oracle" {
 }
 
 ########Route53 Forward Record#########
-resource "aws_route53_record" "this_oracle" {
+resource "aws_route53_record" "this_mssql" {
   provider = "aws.localr53zone"
   count    = "${var.mssql_db}"       ####If this count is 0, this resource wont be computed.
   type     = "CNAME"
